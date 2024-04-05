@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   min-height: 30px;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 header img {
   align-self: flex-start;
@@ -125,4 +125,72 @@ header nav a:hover {
   margin-top: 30px;
   margin-left: 25px;
   color: hsl(236, 13%, 42%);
+}
+
+article {
+  font-family: Inter;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "item1 item2 item3";
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+article .grid-item1,
+article .grid-item2,
+article .grid-item3 {
+  display: flex;
+}
+article .grid-item1 img,
+article .grid-item2 img,
+article .grid-item3 img {
+  flex: 1;
+  max-height: 127px;
+  max-width: 100px;
+}
+article .grid-item1 div,
+article .grid-item2 div,
+article .grid-item3 div {
+  flex: 2;
+}
+article .grid-item1 div h2,
+article .grid-item2 div h2,
+article .grid-item3 div h2 {
+  color: hsl(236, 8%, 79%);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+article .grid-item1 div h3,
+article .grid-item2 div h3,
+article .grid-item3 div h3 {
+  color: hsl(240, 100%, 5%);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+article .grid-item1 div p,
+article .grid-item2 div p,
+article .grid-item3 div p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: hsl(237, 13%, 42%);
+  max-width: 225px;
+  margin-left: 20px;
+}
+
+.grid-item1 {
+  grid-area: item1;
+}
+
+.grid-item2 {
+  grid-area: item2;
+}
+
+.grid-item3 {
+  grid-area: item3;
 }/*# sourceMappingURL=style.css.map */
