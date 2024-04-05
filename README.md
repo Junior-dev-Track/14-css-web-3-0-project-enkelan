@@ -1,56 +1,22 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/8fMl3IN0)
-# Web 3.0 Project
+# Project Name
 
-| Challenge Parameters       | Challenge Details  |
-| :------------------------- |:-------------------|
-| Create a public repository | `Web-3.0` 		  |
-| Challenge type             | Consolidation      |
-| Duration                   | 2 days             |
-| Team                       | Solo           	  |
+This project is a responsive web design built with SCSS and HTML.
 
+## Technologies Used
 
-## Learning objectives
+- HTML5: Used for creating the structure of the web pages.
+- SCSS: Used for styling the web pages. SCSS is a preprocessor scripting language that is interpreted or compiled into CSS.
+- CSS Grid: Used for creating the layout of the web pages.
+- CSS Flexbox: Used for aligning and distributing space among items in a container.
+- CSS Media Queries: Used for making the design responsive and adapting the layout to different screen sizes.
 
-- Write meaningful, semantically correct HTML
-- Use modern positioning techniques using the `grid` or `flexbox` model
-- Create a "pixel-perfect" integration from a given wireframe
+## Features
 
+- Responsive design that adapts to different screen sizes.
+- Navigation bar with a hamburger menu for mobile screens.
+- Grid layout for arranging elements in a grid.
+- Flexbox layout for aligning and distributing space among items.
 
-## The mission
+## Setup
 
-Welcome to your last project in plain CSS.
-
-For this project, we will tackle a Frontend Mentor design.
-
-You'll be led to use the knowledge you acquired on CSS (the basics, flex, grid and media queries) to do a perfectly responsive website.
-
-The mission is simple, you have to perfectly reproduce this design : **[FIGMA FILE](https://www.figma.com/file/87gRFe00lSsdbnQx83jufY/FLEX-GRID-RESPONSIVE?type=design&node-id=0%3A1&mode=dev)**
-
-The graphic designer gave you all the elements so you can code the thing yourself.
-
-Don't forget to check my general usefull tips.
-
-### What should you use and investigate? (feel free to explorer even further)
-
-- B.E.M.
-- SASS (scss)
-- Semantic HTML
-- Responsive [HTML images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
-- Pixel perfection, what does it mean?
-- When to use PX, REM, EM? 🤯
-- Sketching a website to understand it more
-- Correct use of multiple selectors
-- CSS Flexbox or CSS Grid
-- SEO close to perfection
-- Make hover animation
-- Look for animation opportunities
-
-### Test 
-Please check every details and 
-- test your code with **a validator**. 
-- Generate a report with [Lighthouse](https://developers.google.com/web/tools/lighthouse) & try to improve it as mush as you can.
-
-### Github Page
-At the end of the project, you have to publish your page as a Github page. 
-
-![the world of tomorrow](https://media.tenor.co/images/1fcea016af432389e7b444ae3b95abf2/raw)
+To run this project, you need a modern web browser that supports the latest web standards. Open the `index.html` file in your web browser to view the project.
