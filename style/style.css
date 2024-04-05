@@ -34,7 +34,7 @@ header nav a {
   line-height: 26px;
 }
 header nav a:hover {
-  color: #007bff;
+  color: #b92416;
 }
 
 .container {
@@ -47,7 +47,7 @@ header nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "image right-div" "text right-div";
-  grid-gap: 40px;
+  grid-gap: 30px;
 }
 .maingrid-container .image {
   grid-area: image;
@@ -67,6 +67,11 @@ header nav a:hover {
   line-height: 24px;
   letter-spacing: 4.375px;
   color: #fffdfa;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.maingrid-container .text a:hover {
+  color: #b92416;
+  transform: scale(1.1);
 }
 .maingrid-container .text h1 {
   grid-column: 1;
@@ -124,7 +129,7 @@ header nav a:hover {
   max-width: 300px;
   margin-top: 30px;
   margin-left: 25px;
-  color: hsl(236, 13%, 42%);
+  border: 1px solid hsl(236, 13%, 42%);
 }
 
 article {
@@ -133,7 +138,6 @@ article {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "item1 item2 item3";
   margin-top: 100px;
-  padding-bottom: 100px;
 }
 article .grid-item1,
 article .grid-item2,
@@ -193,4 +197,62 @@ article .grid-item3 div p {
 
 .grid-item3 {
   grid-area: item3;
+}
+
+.mobileImage {
+  display: none;
+}
+
+.mobile-nav-image {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 375px;
+  }
+  .header-link {
+    display: none;
+  }
+  .mobile-nav-image {
+    display: block;
+    width: 40px;
+    height: 17px;
+    margin: 10px 0px 0px 240px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+  }
+  .maingrid-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  .maingrid-container .image {
+    display: none;
+  }
+  .maingrid-container .mobileImage {
+    display: block;
+  }
+  .maingrid-container .text {
+    display: flex;
+    flex-direction: column;
+  }
+  .maingrid-container .text h1 {
+    margin-bottom: 16px;
+  }
+  .right-div {
+    margin-top: 50px;
+  }
+  article {
+    grid-template-columns: 1fr;
+    grid-template-areas: "item1" "item2" "item3";
+    margin-top: 50px;
+    margin-left: 16px;
+  }
+  article div {
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
